@@ -1,7 +1,7 @@
 import React,{ useState,useEffect } from 'react';
 import { StyleSheet,ScrollView, Text,View, Alert, Pressable,Image,SafeAreaView } from 'react-native';
 import axios from "axios";
-
+import Button from './Button';
 
 
 /*const api = axios.create({
@@ -50,68 +50,80 @@ export default function TopNewsFeed(){
                                         <Image source={{uri:`${news[1].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[1].abstract}</Text>
-        
+                                        <Button />
                                     </View>
 
                                     <View key={news[0].url} style={styles.container}>
                                         <Image source={{uri:`${news[0].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[0].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[2].url} style={styles.container}>
                                         <Image source={{uri:`${news[2].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[2].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[3].url} style={styles.container}>
                                         <Image source={{uri:`${news[3].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[3].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[4].url} style={styles.container}>
                                         <Image source={{uri:`${news[4].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[4].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[5].url} style={styles.container}>
                                         <Image source={{uri:`${news[5].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[5].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[6].url} style={styles.container}>
                                         <Image source={{uri:`${news[6].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[6].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[7].url} style={styles.container}>
                                         <Image source={{uri:`${news[7].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[7].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[8].url} style={styles.container}>
                                         <Image source={{uri:`${news[8].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[8].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[9].url} style={styles.container}>
                                         <Image source={{uri:`${news[9].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[9].abstract}</Text>
-        
+                                        <Button />
                                     </View>
                                     <View key={news[10].url} style={styles.container}>
                                         <Image source={{uri:`${news[10].multimedia[1].url}` }}
                                             style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
                                         <Text style={styles.info}>{news[10].abstract}</Text>
-        
+                                        <Button />
+                                    </View>
+                                    <View key={news[11].url} style={styles.container}>
+                                        <Image source={{uri:`${news[11].multimedia[1].url}` }}
+                                            style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
+                                        <Text style={styles.info}>{news[11].abstract}</Text>
+                                        <Button />
+                                    </View>
+                                    <View key={news[12].url} style={styles.container}>
+                                        <Image source={{uri:`${news[12].multimedia[1].url}` }}
+                                            style={{width: '90%', height: 200,borderRadius:20,marginLeft:'5%',marginRight:'5%'}} />
+                                        <Text style={styles.info}>{news[12].abstract}</Text>
+                                        <Button />
                                     </View>
                             </View>
                             
